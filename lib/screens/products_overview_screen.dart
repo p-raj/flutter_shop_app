@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import '../widgets/product_item.dart';
 
 import '../providers/products.dart';
-import '../providers/product.dart';
 
 class ProductOverviewScreen extends StatelessWidget {
   @override

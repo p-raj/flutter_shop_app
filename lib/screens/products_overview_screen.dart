@@ -37,7 +37,7 @@ class _ProductOverviewScreenState extends State<ProductOverviewScreen> {
             icon: Icon(Icons.more_vert),
             itemBuilder: (_) => [
               PopupMenuItem(child: Text('Fav'), value: FilterOptions.Fav),
-              PopupMenuItem(child: Text('Fav'), value: FilterOptions.All)
+              PopupMenuItem(child: Text('Fav'), value: FilterOptions.All),
             ],
           )
         ],
